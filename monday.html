@@ -74,14 +74,15 @@ Monday At Red Hat 2020
       box-sizing: border-box;
     }
     
-  
+    /* Create two equal columns that floats next to each other */
     .column {
       float: left;
       width: 50%;
       padding: 10px;
-      height: 300px; 
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
     
-  
+    /* Clear floats after the columns */
     .row:after {
       content: "";
       display: table;
@@ -101,7 +102,7 @@ Monday At Red Hat 2020
 
       <div class="column" style="background-color:darkslateblue;">
         <h2 style="color:white;">FutureSpective:</h2>
-        <p style="color:white;">write about that  in here</p>
+        <p style="color:white;">write about that here</p>
       </div>
     </div>
     
